@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mod By SL
+# Kenn Hiroyuki
 wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/kenDevXD/Mantap/main/sshd_config;
 systemctl restart sshd;
 clear;
